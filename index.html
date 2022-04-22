@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WelcomePage </title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <div class="image">
+               <h1 class="logo-image">KodeCamp</h1>
+                <h2 class="image-text">JOIN OUR NEXT COHURT</h2>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="logo">
+                <img src="./images//logo.png" alt="site-logo" class="logo-form">
+            </div>
+            <form action="active">
+                <h2 class="header-text">Sign In</h2>
+                <div class="names">
+                    <label for="first-name" class="first-name-text">First Name</label>
+                    <input type="text" class="first-name-input" name="firstname">
+                    
+                    <label for="last-name" class="last-name-text">Last Name</label>
+                    <input type="text" class="last-name-input" name="lastname">
+                </div>
+                <div class="other-details">
+                    <label for="email" class="email-text">Email</label> <br>
+                    <input type="email" class="email-input" name="email">
+                    
+                    <div class="gender-section">
+                        <label for="gender" class="gender-text"> Gender</label><br>
+                        <input type="radio" class="male-radio" name="gender" value="male">
+                        <label for="female" class="male-text">Male</label><br>
+                        <input type="radio" class="female-radio" name="gender" value="female">
+                        <label for="Female" class="female-text">Female</label><br>
+                        <input type="radio" class="other-radio" name="gender" value="others">
+                        <label for="others" class="other-text">Other</label><br>
+                    </div>
+                </div>
+                <div class="names">
+                    <label for="Password" class="password-text">Password</label>
+                    <input type="password" class="password-input" name="password">
+                
+                    <label for="confirm password" class="confirm-password-text">Confirm Password</label>
+                    <input type="confirm-password" class="confirm-password-input" name="confirm-password">
+                </div>
+                <div class="level">
+                    <label for="educational level" class="educational-level-text">Educational level</label>
+                    <select name="category" class="category">
+                        <option value="male">Secondary</option>
+                        <option value="female">Tertiary</option>
+                        <option value="other">Masters</option>
+                        <option value="other">Phd</option>
+                    </select>
+                    <label for="experience level" class="experience-level">Experience level</label>
+                    <select name="category2" class="category2">
+                        <option value="male">Secondary</option>
+                        <option value="female">Tertiary</option>
+                        <option value="other">Masters</option>
+                        <option value="other">Phd</option>
+                    </select>
+                </div>
+                <label for="subject-text" class="subject-text">Tell us about yourself</label>
+                <textarea class="subject-input" name="subject"></textarea>
+                <button class="btn">Create Account</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

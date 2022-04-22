@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image {
+    background: url(./images/person.png);
+    position: absolute;
+    width: 487px;
+    height:700px;
+    left: 665px;
+    top: -1px;
+    z-index: -1;
+    color: #FFFFFF;
+}
+
+.logo-image {
+    height: 40px;
+    padding-left: 323px;
+    padding-top: 25px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.image-text {
+    height: 30px;
+    padding-left: 60px;
+    padding-top: 558px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.logo-form {
+    position: absolute;
+    width: 59px;
+    height: 63px;
+    left: 560px;
+    top: 27px;
+}
+.header-text {
+    position: absolute;
+    width: 108px;
+    height: 40px;
+    left: 37px;
+    top: 90px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #086DB8;
+}
+.first-name-text{
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 41px;
+    top: 161px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.first-name-input {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 41px;
+    top: 193px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.last-name-text {
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 341px;
+    top: 161px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.last-name-input {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 341px;
+    top: 193px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.email-text {
+    position: absolute;
+    width: 49px;
+    height: 24px;
+    left: 41px;
+    top: 250px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px; 
+    color: #000000;
+}
+.email-input {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 41px;
+    top: 282px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.gender-text {
+    position: absolute;
+    width: 62px;
+    height: 24px;
+    left: 341px;
+    top: 250px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.male-radio {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 343px;
+    top: 292px;
+    background: #086DB8;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+.male-text {
+    position: absolute;
+    width: 41px;
+    height: 24px;
+    left: 372px;
+    top: 288px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.female-radio {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 433px;
+    top: 292px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+.female-text {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 462px;
+    top: 288px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.other-radio {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 534px;
+    top: 292px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+.other-text {
+    position: absolute;
+    width: 49px;
+    height: 24px;
+    left: 563px;
+    top: 288px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.password-text {
+    position: absolute;
+    width: 80px;
+    height: 21px;
+    left: 41px;
+    top: 333px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.password-input {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 41px;
+    top: 365px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.confirm-password-text {
+    position: absolute;
+    width: 155px;
+    height: 24px;
+    left: 341px;
+    top: 333px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.confirm-password-input {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 341px;
+    top: 365px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.educational-level-text {
+    position: absolute;
+    width: 148px;
+    height: 24px;
+    left: 41px;
+    top: 416px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.category {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 41px;
+    top: 448px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+option {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 303.16px;
+    top: 478px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(179.68deg);
+}
+.experience-level {
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 341px;
+    top: 416px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.category2 {
+    position: absolute;
+    width: 277px;
+    height: 40px;
+    left: 341px;
+    top: 448px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.option2 {
+    left: 616.16px;
+}
+.subject-text {
+    position: absolute;
+    height: 24px;
+    left: 46px;
+    top: 504px; 
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.subject-input {
+    position: absolute;
+    width: 575px;
+    height: 59px;
+    left: 44px;
+    top: 537px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.btn {
+    position: absolute;
+    width: 222px;
+    height: 40px;
+    background: #3E53C4;
+    border: 1px solid #086DB8;
+    box-sizing: border-box;
+    border-radius: 10px 0px;
+    left: 396px;
+    top: 640px;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #FFFFFF;
+}
